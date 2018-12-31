@@ -1,7 +1,11 @@
-body{
-
-    margin: 0;
-    font-size: 14px;
-
+body {
+  margin: 0;
+  font-size: 14px;
+  ul{
+    list-style: none;
+    li{
+       display: inline-block;
+    }
+  }
 
 }

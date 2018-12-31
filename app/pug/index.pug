@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=`, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
-        link(rel="stylesheet" href="css/main.css")
+    include components/head
     body
-        ul
-            each val in [1, 2, 3, 4, 5, 6]
-                li= val
-        div loree   eeeerr
+        include components/header
+        include components/nav
+        include components/footer
+        script(src="build.js")
