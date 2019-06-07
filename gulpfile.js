@@ -44,7 +44,7 @@ gulp.task('script',  ()=> {
 //img compressed
 
 gulp.task('img',  ()=> {
-    gulp.src('app/img/**/*')
+    return gulp.src('app/img/**/*')
         .pipe(img(
             {
                 pngquant: true,
