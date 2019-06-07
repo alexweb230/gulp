@@ -1,0 +1,27 @@
+header{
+  min-height: 75px;
+  .inner-header{
+    .logo{
+      width: 361px;
+      height:51px;
+      display: inline-block;
+      background-image: url("/img/svg/logo.svg");
+      background-size: 100%;
+    }
+    .search{
+
+    }
+    .main-nav{
+      ul{
+        li{
+          color: $black;
+          a{
+            text-transform: uppercase;
+            font-weight: $sem-b;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+}
