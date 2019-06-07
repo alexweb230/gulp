@@ -1,0 +1,20 @@
+.main-nav {
+  flex-grow: 0.6;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      color: $black;
+
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      a {
+        text-transform: uppercase;
+        font-weight: $sem-b;
+        color: inherit;
+      }
+    }
+  }
+}

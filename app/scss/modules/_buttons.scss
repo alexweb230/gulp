@@ -1,5 +1,5 @@
 .but{
-
+  display: inline-block;
   &.but-reg{
     font-size: $font;
     text-transform: uppercase;
@@ -15,5 +15,17 @@
 
   &.but-search{
     @include sprite($search);
+  }
+
+  &.soc{
+    &.fb{
+      @include sprite($fb);
+    }
+    &.im{
+      @include sprite($im);
+    }
+    &.yt{
+      @include sprite($yt);
+    }
   }
 }

@@ -9,22 +9,55 @@
 //
 // At the bottom of this section, we provide information about the spritesheet itself
 // $spritesheet: width height image $spritesheet-sprites;
+$fb-name: 'fb';
+$fb-x: 0px;
+$fb-y: 0px;
+$fb-offset-x: 0px;
+$fb-offset-y: 0px;
+$fb-width: 22px;
+$fb-height: 22px;
+$fb-total-width: 45px;
+$fb-total-height: 45px;
+$fb-image: 'sprite.png';
+$fb: (0px, 0px, 0px, 0px, 22px, 22px, 45px, 45px, 'sprite.png', 'fb', );
+$im-name: 'im';
+$im-x: 0px;
+$im-y: 23px;
+$im-offset-x: 0px;
+$im-offset-y: -23px;
+$im-width: 21px;
+$im-height: 22px;
+$im-total-width: 45px;
+$im-total-height: 45px;
+$im-image: 'sprite.png';
+$im: (0px, 23px, 0px, -23px, 21px, 22px, 45px, 45px, 'sprite.png', 'im', );
 $search-name: 'search';
-$search-x: 0px;
-$search-y: 0px;
-$search-offset-x: 0px;
-$search-offset-y: 0px;
+$search-x: 22px;
+$search-y: 23px;
+$search-offset-x: -22px;
+$search-offset-y: -23px;
 $search-width: 19px;
 $search-height: 19px;
-$search-total-width: 19px;
-$search-total-height: 19px;
+$search-total-width: 45px;
+$search-total-height: 45px;
 $search-image: 'sprite.png';
-$search: (0px, 0px, 0px, 0px, 19px, 19px, 19px, 19px, 'sprite.png', 'search', );
-$spritesheet-width: 19px;
-$spritesheet-height: 19px;
+$search: (22px, 23px, -22px, -23px, 19px, 19px, 45px, 45px, 'sprite.png', 'search', );
+$yt-name: 'yt';
+$yt-x: 23px;
+$yt-y: 0px;
+$yt-offset-x: -23px;
+$yt-offset-y: 0px;
+$yt-width: 22px;
+$yt-height: 22px;
+$yt-total-width: 45px;
+$yt-total-height: 45px;
+$yt-image: 'sprite.png';
+$yt: (23px, 0px, -23px, 0px, 22px, 22px, 45px, 45px, 'sprite.png', 'yt', );
+$spritesheet-width: 45px;
+$spritesheet-height: 45px;
 $spritesheet-image: 'sprite.png';
-$spritesheet-sprites: ($search, );
-$spritesheet: (19px, 19px, 'sprite.png', $spritesheet-sprites, );
+$spritesheet-sprites: ($fb, $im, $search, $yt, );
+$spritesheet: (45px, 45px, 'sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //
