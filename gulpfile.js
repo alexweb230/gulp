@@ -3,6 +3,7 @@
 const gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
+    autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     browser = require('browser-sync').create(),
     pug = require('gulp-pug');
@@ -14,6 +15,10 @@ gulp.task('sass', () => {
     return gulp.src('app/scss/**/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('app/css'))
         .pipe(browser.stream());
