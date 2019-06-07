@@ -1,0 +1,42 @@
+.section-list{
+  background-color: $white;
+  box-shadow: 0 2px 8px 0 rgba(209, 209, 209, 0.8);
+  padding-top: 46px;
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-bottom:28px;
+  &-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 34px;
+  }
+  &-conteiner{
+    ul{
+      column-count: 3;
+      li{
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 29px;
+        a{
+          color: inherit;
+          display: block;
+          &:hover{
+            color:$link;
+            &:before{
+              @include sprite($msg-ac);
+            }
+          }
+          &:before{
+            content: "";
+            display: inline-block;
+            vertical-align: top;
+            @include sprite($msg);
+            margin-right: 9px;
+          }
+        }
+      }
+    }
+  }
+
+}
