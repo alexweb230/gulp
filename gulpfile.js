@@ -6,8 +6,8 @@ const gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     browser = require('browser-sync').create(),
-    uglifyjs = require('gulp-uglifyjs'),
     uglify  = require ( 'gulp-uglify' ),
+    img = require('gulp-image'),
     pug = require('gulp-pug');
 
 sass.compiler = require('node-sass');
@@ -33,12 +33,37 @@ gulp.task('pug', () => {
 });
 
 // scripts
-gulp.task('script', function () {
+gulp.task('script',  ()=> {
     return gulp.src(['app/js/main.js'])
         .pipe(concat('build.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('app/js'));
 });
+
+
+//img compressed
+
+gulp.task('img',  ()=> {
+    gulp.src('app/img/**/*')
+        .pipe(img(
+            {
+                pngquant: true,
+                optipng: false,
+                zopflipng: true,
+                jpegRecompress: true,
+                mozjpeg: false,
+                guetzli: false,
+                gifsicle: true,
+                svgo: true,
+                concurrent: 10,
+                quiet: true // defaults to false
+            }
+        ))
+        .pipe(gulp.dest('app/img/'));
+});
+
+
+
 
 //watching
 gulp.task('sass:watch', () => {
