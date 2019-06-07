@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  &:focus{
+    outline: none;
+  }
+}
+
+input{
+  border: 0;
+  &:focus{
+    outline: none;
+  }
+}
+
