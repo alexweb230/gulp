@@ -28,4 +28,12 @@
       @include sprite($yt);
     }
   }
+  &.more{
+    color: $link;
+    font-weight: $sem-b;
+    font-size: $font - 1;
+    &:hover{
+      color: silver;
+    }
+  }
 }
