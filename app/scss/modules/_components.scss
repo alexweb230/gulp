@@ -1,6 +1,7 @@
-.send-voice{
+.send-voice {
   text-align: center;
-  .warning{
+  padding-top: 50px;
+  .warning {
     color: rgba(0, 0, 0, 0.54);
     background-color: #f6f9fc;
     border-radius: 19px;
@@ -9,7 +10,7 @@
     min-height: 38px;
     line-height: 38px;
     margin-top: 17px;
-    mark{
+    mark {
       background-color: $link;
       border-radius: 13px;
       color: $white;
@@ -20,9 +21,35 @@
       line-height: 12px;
       vertical-align: middle;
     }
-    a{
+    a {
       color: $link;
       text-decoration: underline;
+    }
+  }
+}
+
+.main-img-wrapp {
+  padding-top: 55px;
+  padding-bottom: 110px;
+  .main-img {
+    max-width: 690px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 488px;
+    background-image: url("/img/svg/main-img.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+    .descr {
+      position: absolute;
+      bottom: -70px;
+      left: 0;
+      right: 0;
+      color: rgba(0, 0, 0, 0.54);
+      font-size: $font + 2;
     }
   }
 }
