@@ -8,6 +8,7 @@ const gulp = require('gulp'),
     browser = require('browser-sync').create(),
     uglify  = require ( 'gulp-uglify' ),
     img = require('gulp-image'),
+    spritesmith = require('gulp.spritesmith'),
     pug = require('gulp-pug');
 
 sass.compiler = require('node-sass');
@@ -62,7 +63,15 @@ gulp.task('img',  ()=> {
         .pipe(gulp.dest('app/img/'));
 });
 
-
+//генерация sprite
+gulp.task('sprite',  ()=> {
+    let spriteData = gulp.src('app/img/png/for-sprite/*.png').pipe(spritesmith({
+        imgName: 'sprite.png',
+        cssName: '_sprite.scss',
+        padding:1
+    }));
+    return spriteData.pipe(gulp.dest('app/img/png/sprite'));
+});
 
 
 //watching
