@@ -5,6 +5,10 @@ body {
     list-style: none;
     li{
        display: inline-block;
+      color: red;
+      a{
+        color: red;
+      }
     }
   }
 

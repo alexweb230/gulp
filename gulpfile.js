@@ -2,6 +2,7 @@
 
 const gulp = require('gulp'),
     sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
     concat = require('gulp-concat'),
     browser = require('browser-sync').create(),
     pug = require('gulp-pug');
@@ -11,7 +12,9 @@ sass.compiler = require('node-sass');
 // compilate sass
 gulp.task('sass', () => {
     return gulp.src('app/scss/**/*.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('app/css'))
         .pipe(browser.stream());
 });
