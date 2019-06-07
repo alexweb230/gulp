@@ -6,6 +6,8 @@ const gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     browser = require('browser-sync').create(),
+    uglifyjs = require('gulp-uglifyjs'),
+    uglify  = require ( 'gulp-uglify' ),
     pug = require('gulp-pug');
 
 sass.compiler = require('node-sass');
@@ -14,11 +16,8 @@ sass.compiler = require('node-sass');
 gulp.task('sass', () => {
     return gulp.src('app/scss/**/*.scss')
         .pipe(sourcemaps.init())
+        .pipe(autoprefixer())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-        .pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('app/css'))
         .pipe(browser.stream());
@@ -37,6 +36,7 @@ gulp.task('pug', () => {
 gulp.task('script', function () {
     return gulp.src(['app/js/main.js'])
         .pipe(concat('build.min.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('app/js'));
 });
 

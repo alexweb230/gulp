@@ -4,7 +4,8 @@ body {
   ul{
     list-style: none;
     li{
-       display: flex;
+       border-radius: 30px;
+      column-count: 2;
       color: red;
       a{
         color: red;
