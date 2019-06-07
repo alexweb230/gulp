@@ -1,0 +1,134 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$arr-back-name: 'arr-back';
+$arr-back-x: 41px;
+$arr-back-y: 0px;
+$arr-back-offset-x: -41px;
+$arr-back-offset-y: 0px;
+$arr-back-width: 24px;
+$arr-back-height: 24px;
+$arr-back-total-width: 87px;
+$arr-back-total-height: 73px;
+$arr-back-image: 'sprite.png';
+$arr-back: (41px, 0px, -41px, 0px, 24px, 24px, 87px, 73px, 'sprite.png', 'arr-back', );
+$arr-hov-name: 'arr-hov';
+$arr-hov-x: 0px;
+$arr-hov-y: 0px;
+$arr-hov-offset-x: 0px;
+$arr-hov-offset-y: 0px;
+$arr-hov-width: 40px;
+$arr-hov-height: 73px;
+$arr-hov-total-width: 87px;
+$arr-hov-total-height: 73px;
+$arr-hov-image: 'sprite.png';
+$arr-hov: (0px, 0px, 0px, 0px, 40px, 73px, 87px, 73px, 'sprite.png', 'arr-hov', );
+$arr-l-name: 'arr-l';
+$arr-l-x: 41px;
+$arr-l-y: 50px;
+$arr-l-offset-x: -41px;
+$arr-l-offset-y: -50px;
+$arr-l-width: 22px;
+$arr-l-height: 22px;
+$arr-l-total-width: 87px;
+$arr-l-total-height: 73px;
+$arr-l-image: 'sprite.png';
+$arr-l: (41px, 50px, -41px, -50px, 22px, 22px, 87px, 73px, 'sprite.png', 'arr-l', );
+$arr-list-name: 'arr-list';
+$arr-list-x: 66px;
+$arr-list-y: 0px;
+$arr-list-offset-x: -66px;
+$arr-list-offset-y: 0px;
+$arr-list-width: 21px;
+$arr-list-height: 21px;
+$arr-list-total-width: 87px;
+$arr-list-total-height: 73px;
+$arr-list-image: 'sprite.png';
+$arr-list: (66px, 0px, -66px, 0px, 21px, 21px, 87px, 73px, 'sprite.png', 'arr-list', );
+$arr-mob-name: 'arr-mob';
+$arr-mob-x: 41px;
+$arr-mob-y: 25px;
+$arr-mob-offset-x: -41px;
+$arr-mob-offset-y: -25px;
+$arr-mob-width: 24px;
+$arr-mob-height: 24px;
+$arr-mob-total-width: 87px;
+$arr-mob-total-height: 73px;
+$arr-mob-image: 'sprite.png';
+$arr-mob: (41px, 25px, -41px, -25px, 24px, 24px, 87px, 73px, 'sprite.png', 'arr-mob', );
+$spritesheet-width: 87px;
+$spritesheet-height: 73px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($arr-back, $arr-hov, $arr-l, $arr-list, $arr-mob, );
+$spritesheet: (87px, 73px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
