@@ -27,15 +27,19 @@
     }
   }
 
-  footer {
+  .footer {
     .main-nav {
       width: initial;
       ul {
         li {
-          margin-left: 10px !important;
+          margin-left: 10px;
 
           a {
-          font-size: 2vw;
+          font-size: 2.7vw;
+          }
+          .but-reg{
+            letter-spacing: initial;
+            font-size: 13px;
           }
         }
       }

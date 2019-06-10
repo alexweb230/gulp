@@ -1,0 +1,40 @@
+@media all and (max-width: 480px){
+  header{
+    .inner-header{
+      padding-top: 10px;
+       .logo{
+         width: 100%;
+         margin-bottom: 20px;
+       }
+      .search{
+        margin-bottom: 20px;
+        input{
+          margin-left:0;
+        }
+      }
+    }
+  }
+  .footer{
+    .top-footer{
+      flex-wrap: wrap;
+      .soc-buttons{
+        width: 100%;
+        text-align: center;
+        order: 1;
+      }
+      .main-nav{
+        order: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        li{
+          &:nth-child(1){
+            margin-left: 0;
+          }
+          a{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
