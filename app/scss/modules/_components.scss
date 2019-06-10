@@ -28,28 +28,45 @@
   }
 }
 
-.main-img-wrapp {
-  padding-top: 55px;
-  padding-bottom: 110px;
-  .main-img {
-    max-width: 690px;
-    margin-right: auto;
-    margin-left: auto;
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  .flex-row-item{
     text-align: center;
-    height: 488px;
-    background-image: url("../img/svg/main-img.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-
-    .descr {
-      position: absolute;
-      bottom: -70px;
-      left: 0;
-      right: 0;
-      color: rgba(0, 0, 0, 0.54);
+    max-width: 340px;
+    .img{
+      width: 70%;
+      display: inline-block;
+      overflow: hidden;
+      height: 140px;
+      img{
+        width: 100%;
+      }
+    }
+    .title-caption{
       font-size: $font + 2;
+      text-transform: uppercase;
+      margin: 15px 0;
+    }
+    .title-link{
+      display: inline-block;
+      background-color: $link;
+      font-size: $font + 2;
+      color: $white;
+      font-weight: $bold;
+      letter-spacing: 1.3px;
+      border-radius: 2px;
+      line-height: 30px;
+      padding-top: 4px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .title-description{
+      font-size: $font + 2;
+      color: rgba(0, 0, 0, 0.54);
+      line-height: 1.5;
     }
   }
 }
+
