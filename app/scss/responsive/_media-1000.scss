@@ -18,4 +18,12 @@
     }
   }
 
+  .flex-row{
+    &-item{
+      .title-link{
+        font-size: $font - 4 !important;
+      }
+    }
+  }
+
 }
