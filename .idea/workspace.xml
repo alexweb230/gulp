@@ -1,181 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="footer">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/components/nav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCond.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCond.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCondIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCondIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackCondIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCn.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCn.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCn.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCnIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCnIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiCnIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExtIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExtIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BlackSemiExtIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCond.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCond.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCondIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCondIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldCondIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCn.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCn.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCn.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCnIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCnIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiCnIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExtIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExtIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-BoldSemiExtIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Cond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Cond.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Cond.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-CondIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-CondIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-CondIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-It.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-It.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-It.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCond.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCond.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCondIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCondIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightCondIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCn.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCn.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCn.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCnIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCnIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiCnIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExtIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExtIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-LightSemiExtIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCn.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCn.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCn.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCnIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCnIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiCnIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExtIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExtIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiExtIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Semibold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-Semibold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCond.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCond.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCond.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCondIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCondIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldCondIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCn.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCn.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCn.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCnIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCnIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiCnIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExtIt.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExtIt.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/MyriadPro-SemiboldSemiExtIt.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/fonts/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/im.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/msg-ac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/msg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/for-sprite/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/main-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/sprite/_sprite.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/png/sprite/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/svg/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/svg/main-img.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/svg/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/build.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/components/footer.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/components/head.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/components/header.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/components/main.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/components/nav.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pug/index.pug" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/base/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/base/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/base/_resset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/layout/_container.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/layout/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/layout/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/modules/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/modules/_components.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/modules/_heading.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/modules/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/modules/_section-list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/responsive/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/state/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/utilites/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/utilites/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scss/utilites/_vars.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/scss/themes/_index.scss" afterPath="$PROJECT_DIR$/app/pug/components/list.pug" />
+    <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/main.html" afterPath="$PROJECT_DIR$/app/components/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/main.pug" afterPath="$PROJECT_DIR$/app/pug/components/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_section-list.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_section-list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/base/_resset.scss" afterPath="$PROJECT_DIR$/app/scss/base/_resset.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -188,7 +16,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/components/main.pug">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="466">
@@ -203,6 +31,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="216">
                   <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_resset.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/base/_resset.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="653">
+                  <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -267,7 +105,6 @@
         <option value="$PROJECT_DIR$/app/img/png/sprite/_sprite.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_buttons.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_voice.scss" />
-        <option value="$PROJECT_DIR$/app/scss/base/_resset.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_container.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_nav.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_index.scss" />
@@ -287,6 +124,7 @@
         <option value="$PROJECT_DIR$/app/pug/components/list.pug" />
         <option value="$PROJECT_DIR$/app/scss/modules/_section-list.scss" />
         <option value="$PROJECT_DIR$/app/pug/components/main.pug" />
+        <option value="$PROJECT_DIR$/app/scss/base/_resset.scss" />
       </list>
     </option>
   </component>
@@ -371,6 +209,13 @@
               <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="gulp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="gulp" type="b2602c69:ProjectViewProjectNode" />
@@ -711,7 +556,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559890395487</updated>
       <workItem from="1559890396654" duration="22097000" />
-      <workItem from="1560145701348" duration="20080000" />
+      <workItem from="1560145701348" duration="20128000" />
     </task>
     <task id="LOCAL-00001" summary="wwww">
       <created>1559891853520</created>
@@ -909,11 +754,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560164339037</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="footer">
+      <created>1560166451779</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560166451779</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43959000" />
+    <option name="totallyTimeSpent" value="44007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -1154,14 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_resset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/svg/main-img.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
@@ -1339,6 +1183,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
           <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/base/_resset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding />
         </state>
       </provider>
