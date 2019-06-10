@@ -1,0 +1,21 @@
+@media all and (max-width: 1000px){
+  header{
+    .inner-header{
+      .logo{
+        width: 30vw;
+      }
+    }
+    .main-nav{
+      li{
+        a{
+          font-size: 1.6vw;
+        }
+        .but-reg{
+          font-size: 13px;
+          letter-spacing: initial;
+        }
+      }
+    }
+  }
+
+}
