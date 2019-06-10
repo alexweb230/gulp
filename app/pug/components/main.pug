@@ -48,7 +48,16 @@
 
                     .name Програма"Питна вода Київщини"
 
-
+    .content
+        .section-list
+            .section-list-heading
+                h3.h3 Поточні
+                a(href="#").but.more Показати всі
+            .section-list-conteiner
+                ul
+                    each text in textlist
+                        li
+                            a(href="")=text
 
 
 
