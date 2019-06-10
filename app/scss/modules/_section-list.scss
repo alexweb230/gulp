@@ -14,26 +14,33 @@
   &-conteiner{
     ul{
       column-count: 3;
-      li{
+      .check-block{
         display: inline-block;
         width: 100%;
         margin-bottom: 29px;
-        a{
-          color: inherit;
-          display: block;
-          &:hover{
-            color:$link;
-            &:before{
-              @include sprite($msg-ac);
-            }
+        position: relative;
+        overflow: hidden;
+        label{
+           padding-left: 20px;
+        }
+        input{
+          position: absolute;
+          right: 100%;
+          &[type="checkbox"]:checked + .icon{
+            @include sprite($msg-ac);
           }
-          &:before{
-            content: "";
-            display: inline-block;
-            vertical-align: top;
-            @include sprite($msg);
-            margin-right: 9px;
+          &[type="checkbox"]:checked + .icon + span{
+            color: red;
           }
+        }
+        .icon{
+          position: absolute;
+          left: 0;
+          top:0;
+          @include sprite($msg);
+        }
+        .text{
+          display: inline-block;
         }
       }
     }

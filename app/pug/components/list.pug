@@ -1,0 +1,13 @@
+.content
+    .section-list
+        .section-list-heading
+            h3.h3 Поточні
+            a(href="#").but.more Показати всі
+        .section-list-conteiner
+            ul
+                each text in textlist
+                    li.check-block
+                        label
+                            input(type="checkbox")
+                            span.icon
+                            span.text=text

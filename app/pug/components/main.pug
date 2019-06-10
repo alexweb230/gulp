@@ -24,16 +24,8 @@
                 a(href="#").title-link СЛІДКУЙ ЗА СВОЇМ ДЕПУТАТОМ
                 p.title-description  Программа кандидата розробляється разом із громадою. На базі рівності, взаємоповаги та спільних принципів
 
-    .content
-        .section-list
-            .section-list-heading
-                h3.h3 Поточні
-                a(href="#").but.more Показати всі
-            .section-list-conteiner
-                ul
-                    each text in textlist
-                        li
-                            a(href="")=text
+    include list
+
     .content.chart-wraper
         h2 Рейтинг программ за кількістю голосів
         .chart-box
@@ -65,17 +57,7 @@
 
                     .name Програма"Питна вода Київщини"
 
-    .content
-        .section-list
-            .section-list-heading
-                h3.h3 Регіональна Програма
-                a(href="#").but.more Показати всі
-            .section-list-conteiner
-                ul
-                    each text in textlist
-                        li
-                            a(href="")=text
-
+    include list
 
 
     .content

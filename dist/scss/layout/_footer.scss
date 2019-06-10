@@ -8,7 +8,10 @@ footer {
     align-items: center;
     .main-nav {
       flex-grow: 0;
-      width: 39%;
+      li{
+        margin-left: 30px;
+      }
+
     }
     .soc-buttons {
       .soc {
