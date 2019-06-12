@@ -27,7 +27,7 @@
           position: absolute;
           right: 100%;
           &[type="checkbox"]:checked + .icon{
-            @include sprite($msg-ac);
+            @include sprite($ch);
           }
           &[type="checkbox"]:checked + .icon + span{
             color: red;
