@@ -70,6 +70,7 @@
   .chart-wraper {
     .chart-box {
       .progress-bar {
+        padding-bottom: 42px;
         .progress {
           width: 30px;
           .progress-descr {
@@ -87,12 +88,17 @@
         }
         .name {
           font-size: 12px;
+          top:5px;
+        }
+      }
+      .chart-box-scale{
+        .scale-item{
+          margin-bottom: 33px;
         }
       }
     }
   }
   .global-wrapper {
-
     .flex-row {
       justify-content: center;
       &-item {
