@@ -37,9 +37,10 @@
     max-width: 340px;
     margin: 10px;
     &:nth-child(1) {
+      flex-shrink: 2;
       .img {
         background-image: url("../img/svg/test-1.svg");
-        flex-shrink: 2;
+
       }
     }
     &:nth-child(2) {
@@ -51,7 +52,7 @@
 
     &:nth-child(3) {
       .img {
-        background-image: url("../img/png/testing.png");
+        background-image: url("../img/svg/test-3.svg");
       }
     }
     .img {

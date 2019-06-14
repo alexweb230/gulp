@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="">
+    <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="footer">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/svg/test-3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/svg/testing.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_components.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_components.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/responsive/_media-480.scss" afterPath="$PROJECT_DIR$/app/scss/responsive/_media-480.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +28,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_components.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_components.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/modules/_components.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="432">
+              <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test-3.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/svg/test-3.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="8" column="1002" lean-forward="false" selection-start-line="8" selection-start-column="1002" selection-end-line="8" selection-end-column="1002" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_media-480.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-480.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="117" column="2" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/svg/testing.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,12 +137,12 @@
         <option value="$PROJECT_DIR$/app/scss/base/_resset.scss" />
         <option value="$PROJECT_DIR$/app/img/png/sprite/_sprite.scss" />
         <option value="$PROJECT_DIR$/app/scss/modules/_section-list.scss" />
-        <option value="$PROJECT_DIR$/app/scss/responsive/_media-480.scss" />
         <option value="$PROJECT_DIR$/app/pug/components/list.pug" />
         <option value="$PROJECT_DIR$/app/scss/modules/_heading.scss" />
         <option value="$PROJECT_DIR$/app/scss/responsive/_media-800.scss" />
         <option value="$PROJECT_DIR$/app/pug/components/main.pug" />
         <option value="$PROJECT_DIR$/app/scss/modules/_components.scss" />
+        <option value="$PROJECT_DIR$/app/scss/responsive/_media-480.scss" />
       </list>
     </option>
   </component>
@@ -260,9 +293,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img/svg" />
       <recent name="$PROJECT_DIR$/app/img/png/for-sprite" />
       <recent name="$PROJECT_DIR$/app/img/png" />
-      <recent name="$PROJECT_DIR$/app/img/svg" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/scss/themes" />
     </key>
@@ -294,7 +327,7 @@
       <updated>1559890395487</updated>
       <workItem from="1559890396654" duration="22097000" />
       <workItem from="1560145701348" duration="21640000" />
-      <workItem from="1560248487433" duration="18297000" />
+      <workItem from="1560248487433" duration="20323000" />
     </task>
     <task id="LOCAL-00001" summary="wwww">
       <created>1559891853520</created>
@@ -569,11 +602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560491822694</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="footer">
+      <created>1560494975827</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560494975827</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63816000" />
+    <option name="totallyTimeSpent" value="65842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -642,20 +682,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scss/base/_resset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -905,14 +931,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-480.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="118" column="3" lean-forward="false" selection-start-line="118" selection-start-column="3" selection-end-line="118" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/list.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -977,6 +995,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/png/testing.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/svg/testing.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/main.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,15 +1016,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/png/testing.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_components.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="432">
+          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/svg/test-3.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="8" column="1002" lean-forward="false" selection-start-line="8" selection-start-column="1002" selection-end-line="8" selection-end-column="1002" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/responsive/_media-480.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="117" column="2" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="2" />
           <folding />
         </state>
       </provider>
