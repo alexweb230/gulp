@@ -39,17 +39,19 @@
     &:nth-child(1) {
       .img {
         background-image: url("../img/svg/test-1.svg");
+        flex-shrink: 2;
       }
     }
     &:nth-child(2) {
       .img {
         background-image: url("../img/svg/test-2.svg");
+        width: 85%;
       }
     }
 
     &:nth-child(3) {
       .img {
-        background-image: url("../img/svg/test-2.svg");
+        background-image: url("../img/png/testing.png");
       }
     }
     .img {
