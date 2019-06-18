@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/modules/_section-list.scss" afterPath="$PROJECT_DIR$/app/scss/modules/_section-list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="_section-list.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/modules/_section-list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="251">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -288,7 +288,7 @@
       <workItem from="1560145701348" duration="21640000" />
       <workItem from="1560248487433" duration="21495000" />
       <workItem from="1560499858216" duration="599000" />
-      <workItem from="1560838751621" duration="717000" />
+      <workItem from="1560838751621" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="wwww">
       <created>1559891853520</created>
@@ -584,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560839297374</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="footer">
+      <created>1560839471230</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560839471230</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68330000" />
+    <option name="totallyTimeSpent" value="68431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -993,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/modules/_section-list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="251">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
         </state>
       </provider>
