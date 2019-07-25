@@ -1,65 +1,18 @@
 
-.global-wrapper
-    .content
-        .flex-row
-            .flex-row-item
-                .img
-                    //img(src="img/svg/test-1.svg" alt="")
-                h3.title-caption ПРИНЦИП 1
-                a(href="#").title-link КЕРУЙ СВОЇМ ДЕПУТАТОМ
-                p.title-description  Программа кандидата розробляється разом із громадою. На базі рівності, взаємоповаги та спільних принципів
-            .flex-row-item
-                .img
-                    //img(src="img/svg/test-2.svg" alt="")
-                h3.title-caption ПРИНЦИП 2
-                a(href="#").title-link СЛІДКУЙ ЗА СВОЇМ ДЕПУТАТОМ
-                p.title-description  Программа кандидата розробляється разом із громадою. На базі рівності, взаємоповаги та спільних принципів
+.section
+    .main-video.content
+        iframe(  src="https://www.youtube.com/embed/OXuIqaeg0SI"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-            .flex-row-item
-                .img
-                    //img(src="img/png/testing.png" alt="")
-                h3.title-caption ПРИНЦИП 3
-                a(href="#").title-link СЛІДКУЙ ЗА СВОЇМ ДЕПУТАТОМ
-                p.title-description  Программа кандидата розробляється разом із громадою. На базі рівності, взаємоповаги та спільних принципів
+        .main-video-caption
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur consequuntur distinctio earum esse expedita hic id impedit magnam perspiciatis possimus quasi quidem repellendus saepe sunt tempore, totam vel voluptas.
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur consequuntur distinctio earum esse expedita hic id impedit magnam perspiciatis possimus quasi quidem repellendus saepe sunt tempore, totam vel voluptas.
 
-    include list
-
-    .content.chart-wraper
-        h2 Рейтинг программ за кількістю голосів
-        .chart-box
-            .chart-box-scale
-                .scale-item
-                    span 100
-                .scale-item
-                    span 80
-                .scale-item
-                    span 60
-                .scale-item
-                    span 40
-                .scale-item
-                    span 20
-                .scale-item
-                    span 0
-            .progress-bar
-                .progress-item
-                    .progress
-                    .name Програма"Питна вода Київщини"
-                .progress-item
-                    .progress
-                    .name Програма"Питна вода Київщини"
-                .progress-item
-                    .progress.red
-                        .progress-descr
-                            span.title Травень
-                            span.count 72%
-
-                    .name Програма"Питна вода Київщини"
-
-    include list
-
-
-    .content
-        .send-voice
-            button.but.but-reg Віддати свій голоc
-            .warning <mark>Увага!</mark> Для голосування необхідно авторизуватись. Натисніть <a href="#">сюди</a> для авторизації
-
+    .video-grid.content
+        .video-grid-item
+            img(src="https://picsum.photos/200/300?grayscale" alt="")
+        .video-grid-item
+            img(src="https://picsum.photos/id/237/200/300" alt="")
+        .video-grid-item
+            img(src="https://picsum.photos/200/300/?blur" alt="")
+        .video-grid-item
+            img(src="https://picsum.photos/id/870/200/300?grayscale&blur=2" alt="")
