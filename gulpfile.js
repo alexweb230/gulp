@@ -96,7 +96,6 @@ gulp.task('browser', function () {
 
 gulp.task('build', () => {
     return gulp.src('app/**/*')
-
         .pipe(gulp.dest('dist'))
 
 });
