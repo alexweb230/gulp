@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5188e9-1bdc-452d-bf86-f2842193eb72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/svg/youtube.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/ch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/im.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/msg-ac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/msg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/for-sprite/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/main-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/png/testing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/main-img.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/test-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/test-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/test-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/svg/testing.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/footer.html" afterPath="$PROJECT_DIR$/app/components/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/head.html" afterPath="$PROJECT_DIR$/app/components/head.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header.html" afterPath="$PROJECT_DIR$/app/components/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/list.html" afterPath="$PROJECT_DIR$/app/components/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/main.html" afterPath="$PROJECT_DIR$/app/components/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/footer.pug" afterPath="$PROJECT_DIR$/app/pug/components/footer.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/head.pug" afterPath="$PROJECT_DIR$/app/pug/components/head.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/header.pug" afterPath="$PROJECT_DIR$/app/pug/components/header.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/list.pug" afterPath="$PROJECT_DIR$/app/pug/components/list.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pug/components/main.pug" afterPath="$PROJECT_DIR$/app/pug/components/main.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/layout/_container.scss" afterPath="$PROJECT_DIR$/app/scss/layout/_container.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/main.scss" afterPath="$PROJECT_DIR$/app/scss/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/utilites/_fonts.scss" afterPath="$PROJECT_DIR$/app/scss/utilites/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/utilites/_index.scss" afterPath="$PROJECT_DIR$/app/scss/utilites/_index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,18 +22,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47114733">
+    <splitter split-orientation="horizontal" split-proportion="0.77800405">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/components/header.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                  <folding>
-                    <marker date="1564042785377" expanded="true" signature="6:57" ph="..." />
-                    <marker date="1564042785377" expanded="true" signature="24:56" ph="..." />
-                  </folding>
+                <state relative-caret-position="36">
+                  <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -65,8 +38,8 @@
           <file leaf-file-name="main.pug" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/pug/components/main.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
+                <state relative-caret-position="338">
+                  <caret line="31" column="73" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
                   <folding />
                 </state>
               </provider>
@@ -75,8 +48,8 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="97" column="31" lean-forward="false" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+                <state relative-caret-position="295">
+                  <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="100" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -96,7 +69,7 @@
             <entry file="file://$PROJECT_DIR$/app/scss/utilites/_index.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="18">
-                  <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+                  <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -109,8 +82,18 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="148">
-                  <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+                <state relative-caret-position="288">
+                  <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="head.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/components/head.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -119,8 +102,8 @@
           <file leaf-file-name="footer.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/components/footer.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -176,7 +159,6 @@
         <option value="$PROJECT_DIR$/app/scss/utilites/_vars.scss" />
         <option value="$PROJECT_DIR$/app/img/png/sprite/_sprite.scss" />
         <option value="$PROJECT_DIR$/app/scss/base/_resset.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/app/scss/layout/_nav.scss" />
@@ -193,11 +175,12 @@
         <option value="$PROJECT_DIR$/app/pug/components/head.pug" />
         <option value="$PROJECT_DIR$/app/scss/utilites/_fonts.scss" />
         <option value="$PROJECT_DIR$/app/scss/utilites/_index.scss" />
-        <option value="$PROJECT_DIR$/app/pug/components/header.pug" />
-        <option value="$PROJECT_DIR$/app/pug/components/main.pug" />
-        <option value="$PROJECT_DIR$/app/pug/components/footer.pug" />
         <option value="$PROJECT_DIR$/app/scss/layout/_container.scss" />
+        <option value="$PROJECT_DIR$/app/pug/components/footer.pug" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/pug/components/header.pug" />
         <option value="$PROJECT_DIR$/app/scss/main.scss" />
+        <option value="$PROJECT_DIR$/app/pug/components/main.pug" />
       </list>
     </option>
   </component>
@@ -380,21 +363,7 @@
       <workItem from="1561557715860" duration="597000" />
       <workItem from="1563354612671" duration="484000" />
       <workItem from="1563438178085" duration="929000" />
-      <workItem from="1564042044708" duration="2733000" />
-    </task>
-    <task id="LOCAL-00001" summary="wwww">
-      <created>1559891853520</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559891853520</updated>
-    </task>
-    <task id="LOCAL-00002" summary="wwww">
-      <created>1559892045024</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1559892045024</updated>
+      <workItem from="1564042044708" duration="7010000" />
     </task>
     <task id="LOCAL-00003" summary="wwww">
       <created>1559893020223</created>
@@ -725,11 +694,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564042228098</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="single">
+      <created>1564044782670</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1564044782670</updated>
+    </task>
+    <task id="LOCAL-00051" summary="single">
+      <created>1564046020921</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1564046020921</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87036000" />
+    <option name="totallyTimeSpent" value="91313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1973" y="-4" width="1867" height="1084" extended-state="6" />
@@ -743,7 +726,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29784948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19110379" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19110379" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1061,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/head.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/nav.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1093,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="97" column="31" lean-forward="false" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/utilites/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1112,26 +1079,7 @@
     <entry file="file://$PROJECT_DIR$/app/scss/utilites/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1564042785377" expanded="true" signature="6:57" ph="..." />
-            <marker date="1564042785377" expanded="true" signature="24:56" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/components/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
+          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1152,18 +1100,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="100" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/components/footer.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="64" lean-forward="false" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="288">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/components/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="31" column="73" lean-forward="false" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
           <folding />
         </state>
       </provider>

@@ -99,6 +99,11 @@ gulp.task('build', () => {
         .pipe(gulp.dest('dist'))
 
 });
+// gulp.task('build', () => {
+//     return gulp.src(['app/css/*', 'app/index.html', 'app/img/*'])
+//         .pipe(gulp.dest('dist'))
+//
+// });
 
 
 //default
